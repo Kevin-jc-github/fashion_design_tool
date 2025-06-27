@@ -13,7 +13,7 @@ model = CLIPModel.from_pretrained(MODEL_NAME)
 processor = CLIPProcessor.from_pretrained(MODEL_NAME)
 print(f"Loaded {MODEL_NAME} model")
 
-# 2. 加载女友的图片库
+# 2. 加载图片库
 image_paths = []
 images = []
 for img_file in os.listdir(IMAGE_DIR):
